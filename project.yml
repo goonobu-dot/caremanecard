@@ -1,0 +1,68 @@
+name: CareCard
+options:
+  bundleIdPrefix: com.goonobu
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.1"
+    CURRENT_PROJECT_VERSION: "3"
+    ITSAppUsesNonExemptEncryption: false
+
+targets:
+  CareCard:
+    type: application
+    platform: iOS
+    sources:
+      - path: CareCard
+    resources:
+      - path: CareCard/Resources/deck
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.goonobu.caremanecard
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: CareCard/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_PREVIEWS: YES
+
+  CareCardTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CareCardTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.goonobu.caremanecard.tests
+    dependencies:
+      - target: CareCard
+
+  CareCardUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: CareCardUITests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.goonobu.caremanecard.uitests
+    dependencies:
+      - target: CareCard
+
+schemes:
+  CareCard:
+    build:
+      targets:
+        CareCard: all
+        CareCardTests: [test]
+        CareCardUITests: [test]
+    test:
+      targets:
+        - CareCardTests
+        - CareCardUITests
+    run:
+      config: Debug

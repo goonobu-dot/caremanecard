@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065B66112D028D61B5CE3188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A018DDA9E7332584AFA337 /* Assets.xcassets */; };
+		08EBE54E73F4755E3278DFB9 /* HintStateMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DCB8187A4B7BD2F11E923 /* HintStateMachineTests.swift */; };
+		0B58A534C8E85CC6DBFDC270 /* DeckRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A4B4F58FAE396B85EE62C /* DeckRepository.swift */; };
+		0BD194D9169D16CE53017207 /* CardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCCDA200EAA47B934A0C02 /* CardTheme.swift */; };
+		1E5B109797EBCA3A5A6AEF31 /* LearnFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FF9A5F42B822E4DBAB321F /* LearnFlowView.swift */; };
+		1F680CFA3102490B385A4B5B /* deck-hoken.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F47E26EF25B3C6CA0208080 /* deck-hoken.json */; };
+		26B694AA9C017099D9276F6B /* HintStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBA7681495B7A2C0F9F027 /* HintStateMachine.swift */; };
+		33811C2CEC674D3AF48BF729 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F569AB6B29439F3B8758B6 /* TodayView.swift */; };
+		37A26454FFF6657C17F0D2EA /* DeckValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD64C02EA50CBADBFD04493 /* DeckValidator.swift */; };
+		3B8B19831920B4C486B6CF18 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E499761F601EAC6DA1D3BE /* ProgressHomeView.swift */; };
+		3BEF4F17AF8D0B8ACE6F7A1A /* FactsCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC62E306990AC9B8E63E /* FactsCatalog.swift */; };
+		3FF6E7D31602E02E8AA890DB /* CareCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E00CCBC6D33571CC5518E /* CareCardApp.swift */; };
+		4B9731D851613541D057A7F1 /* deck-shien.json in Resources */ = {isa = PBXBuildFile; fileRef = 287EC1563AEFFE0779907EE5 /* deck-shien.json */; };
+		56BC74F64B18E7D59EA79018 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57B12797A906DF39A2CA09 /* RootView.swift */; };
+		660237DA8C03C24801250E8E /* StudyLimiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39DEEB0154DC32A5811BC /* StudyLimiterTests.swift */; };
+		6F0F513E4679C9D682A2C8D3 /* DeckSchemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0240294D50082F5E92526B /* DeckSchemaTests.swift */; };
+		752F9F6E9DC5F61E7488CA8C /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F65D6A865E2223A32B9D0 /* Scheduler.swift */; };
+		75D5C7058F02354C531C8936 /* StudyQueueBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC01657A2A9ADEDD7A07CEE /* StudyQueueBuilder.swift */; };
+		7ED542773C965C257C60303D /* DeckLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1029FD5B1957EC914B010CA /* DeckLoader.swift */; };
+		844389289A76C730902F5215 /* ExamPaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39403C60513C732D7819AA98 /* ExamPaceTests.swift */; };
+		8782F103C97D3500D9B18727 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751EC39A04CA462CDA5421F /* PaywallView.swift */; };
+		89DAE05B47B4053AA91DF354 /* HintTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565DCF03D629978CBDA7587 /* HintTemplates.swift */; };
+		8E5AF2D10E9E95A527FB0DDC /* StoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD21DD9DBB7E7B0134FFF0 /* StoreScreenshotTests.swift */; };
+		9B8C5DDA5F49D98DA6EE5D0C /* StudyQueueBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B442D5F2936D0C628109B0 /* StudyQueueBuilderTests.swift */; };
+		9FF95BE785141ABAE8DBF04C /* deck-fukushi.json in Resources */ = {isa = PBXBuildFile; fileRef = 65F7B4128E9C2746F83DED86 /* deck-fukushi.json */; };
+		A43AF82A0B4AC2A05FB89B79 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AB1504016A37C7858A461 /* SchedulerTests.swift */; };
+		A8A9DE93EECF1F6D65640F2C /* LearnFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB119CFD69431DB1CE82E3 /* LearnFlowUITests.swift */; };
+		AF4A0C5BCA7C151D0EC21F45 /* ProductIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0079587211A799DEB7B721 /* ProductIDs.swift */; };
+		BB65C629F0968D45BE7F8657 /* AppSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB45DDC6EABFC3D13066E8 /* AppSettingsStore.swift */; };
+		C1E9DCE170E2B897BE8A8EC8 /* LearnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C3382A0612E74C6C8F7D2 /* LearnCardView.swift */; };
+		C280C1A28CD0E265ED98A80D /* EntitlementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719A6C3F554A37C5D1EE118 /* EntitlementStore.swift */; };
+		C299EC2F3C6BA551DA0AF76B /* ExamPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41629C1A2936B40DA56FF7AF /* ExamPace.swift */; };
+		D2F492962021EB5C1AD6EC32 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A9823B56C466A734B57E1 /* CardProgress.swift */; };
+		D714921EEE93AB5220066FB8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738C4159739A86DD4379FA37 /* SettingsView.swift */; };
+		D8D96500B7ABAFB22BF23DB0 /* FlameShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21947066E8B42F941B15E078 /* FlameShape.swift */; };
+		EA83BE91D46CADF998F9D186 /* CardDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC908468ED82D6B016F8307 /* CardDefinition.swift */; };
+		F41FE7434451D48A7E9CEB0C /* HintImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4452CF0B53C35155B22E6FA /* HintImageView.swift */; };
+		FC350811DEDE0DA320DDB506 /* StudyLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8AF1246FD99B41A179E85 /* StudyLimiter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F8EF7903F3ECD5DE853F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1908758C3EB61AA2D886AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287C9A8122F86AA6AFC9C28E;
+			remoteInfo = CareCard;
+		};
+		EF867D17E9CEECF43B321C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1908758C3EB61AA2D886AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287C9A8122F86AA6AFC9C28E;
+			remoteInfo = CareCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CD21DD9DBB7E7B0134FFF0 /* StoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreenshotTests.swift; sourceTree = "<group>"; };
+		1719A6C3F554A37C5D1EE118 /* EntitlementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementStore.swift; sourceTree = "<group>"; };
+		1751EC39A04CA462CDA5421F /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		18C3FC62E306990AC9B8E63E /* FactsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCatalog.swift; sourceTree = "<group>"; };
+		21947066E8B42F941B15E078 /* FlameShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameShape.swift; sourceTree = "<group>"; };
+		287EC1563AEFFE0779907EE5 /* deck-shien.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-shien.json"; sourceTree = "<group>"; };
+		2F6A4B4F58FAE396B85EE62C /* DeckRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRepository.swift; sourceTree = "<group>"; };
+		38B442D5F2936D0C628109B0 /* StudyQueueBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilderTests.swift; sourceTree = "<group>"; };
+		39403C60513C732D7819AA98 /* ExamPaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPaceTests.swift; sourceTree = "<group>"; };
+		41629C1A2936B40DA56FF7AF /* ExamPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPace.swift; sourceTree = "<group>"; };
+		4EFB119CFD69431DB1CE82E3 /* LearnFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowUITests.swift; sourceTree = "<group>"; };
+		540A9823B56C466A734B57E1 /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		5FC908468ED82D6B016F8307 /* CardDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDefinition.swift; sourceTree = "<group>"; };
+		65F7B4128E9C2746F83DED86 /* deck-fukushi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-fukushi.json"; sourceTree = "<group>"; };
+		678F65D6A865E2223A32B9D0 /* Scheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		738C4159739A86DD4379FA37 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		776E74C66CB34D60F58DDA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78F569AB6B29439F3B8758B6 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		7BD64C02EA50CBADBFD04493 /* DeckValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckValidator.swift; sourceTree = "<group>"; };
+		83F3F97A908FB8F868C95CBC /* CareCard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CareCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F47E26EF25B3C6CA0208080 /* deck-hoken.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-hoken.json"; sourceTree = "<group>"; };
+		92C39DEEB0154DC32A5811BC /* StudyLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiterTests.swift; sourceTree = "<group>"; };
+		95A018DDA9E7332584AFA337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		983DCB8187A4B7BD2F11E923 /* HintStateMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachineTests.swift; sourceTree = "<group>"; };
+		9ABCCDA200EAA47B934A0C02 /* CardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTheme.swift; sourceTree = "<group>"; };
+		9AC01657A2A9ADEDD7A07CEE /* StudyQueueBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilder.swift; sourceTree = "<group>"; };
+		9B4E00CCBC6D33571CC5518E /* CareCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCardApp.swift; sourceTree = "<group>"; };
+		A0E499761F601EAC6DA1D3BE /* ProgressHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHomeView.swift; sourceTree = "<group>"; };
+		A1029FD5B1957EC914B010CA /* DeckLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLoader.swift; sourceTree = "<group>"; };
+		A3512D5503B1CF9AF7E34F54 /* CareCardTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CareCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66AB1504016A37C7858A461 /* SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerTests.swift; sourceTree = "<group>"; };
+		A8FF9A5F42B822E4DBAB321F /* LearnFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowView.swift; sourceTree = "<group>"; };
+		AAAB45DDC6EABFC3D13066E8 /* AppSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsStore.swift; sourceTree = "<group>"; };
+		AE2C3382A0612E74C6C8F7D2 /* LearnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardView.swift; sourceTree = "<group>"; };
+		AEFBA7681495B7A2C0F9F027 /* HintStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachine.swift; sourceTree = "<group>"; };
+		BA0240294D50082F5E92526B /* DeckSchemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckSchemaTests.swift; sourceTree = "<group>"; };
+		C0F8AF1246FD99B41A179E85 /* StudyLimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiter.swift; sourceTree = "<group>"; };
+		C4452CF0B53C35155B22E6FA /* HintImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintImageView.swift; sourceTree = "<group>"; };
+		CF57B12797A906DF39A2CA09 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D565DCF03D629978CBDA7587 /* HintTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTemplates.swift; sourceTree = "<group>"; };
+		EB0079587211A799DEB7B721 /* ProductIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductIDs.swift; sourceTree = "<group>"; };
+		F1490609EF560E28863A5F6B /* CareCardUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CareCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07CACFB9665FE35D01F204EF /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				1751EC39A04CA462CDA5421F /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		197BF10C08A75F307A53E65D /* CareCard */ = {
+			isa = PBXGroup;
+			children = (
+				776E74C66CB34D60F58DDA33 /* Info.plist */,
+				92A97E4CA29E4B2C781975E0 /* App */,
+				AD56A798010ED27385EBAD00 /* Deck */,
+				2DEC2D0A9184C4E93C52E87C /* Features */,
+				4758A55E674CAEB57EE99F5F /* HintTemplates */,
+				37981919AB0356757FCA82A6 /* Models */,
+				AF4C2A5B89E8060481AE2954 /* Resources */,
+				A99658DE06C97B3CF71C72DD /* Scheduler */,
+				A07F4AE27FB0FDA5E3BD4505 /* Store */,
+			);
+			path = CareCard;
+			sourceTree = "<group>";
+		};
+		1FFD4C686CCB24817A22BDA2 = {
+			isa = PBXGroup;
+			children = (
+				197BF10C08A75F307A53E65D /* CareCard */,
+				ED3453FA5DF71B61B2BE5AAB /* CareCardTests */,
+				9101C04D565B99A6127F7214 /* CareCardUITests */,
+				7BC4A1CCA8A0F6CDC4712F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2377D0EF8B1D41C7A280628C /* deck */ = {
+			isa = PBXGroup;
+			children = (
+				65F7B4128E9C2746F83DED86 /* deck-fukushi.json */,
+				8F47E26EF25B3C6CA0208080 /* deck-hoken.json */,
+				287EC1563AEFFE0779907EE5 /* deck-shien.json */,
+			);
+			path = deck;
+			sourceTree = "<group>";
+		};
+		2DEC2D0A9184C4E93C52E87C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A65D0C380DA309C85BD4665D /* Learn */,
+				07CACFB9665FE35D01F204EF /* Paywall */,
+				C5830C01A2138B7567F8221B /* Progress */,
+				42C002097426A36DEAF99528 /* Settings */,
+				D14EE53F183F3ECF9BD6E9F7 /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		37981919AB0356757FCA82A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB45DDC6EABFC3D13066E8 /* AppSettingsStore.swift */,
+				540A9823B56C466A734B57E1 /* CardProgress.swift */,
+				2F6A4B4F58FAE396B85EE62C /* DeckRepository.swift */,
+				C0F8AF1246FD99B41A179E85 /* StudyLimiter.swift */,
+				9AC01657A2A9ADEDD7A07CEE /* StudyQueueBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42C002097426A36DEAF99528 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				738C4159739A86DD4379FA37 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4758A55E674CAEB57EE99F5F /* HintTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCCDA200EAA47B934A0C02 /* CardTheme.swift */,
+				21947066E8B42F941B15E078 /* FlameShape.swift */,
+				C4452CF0B53C35155B22E6FA /* HintImageView.swift */,
+				D565DCF03D629978CBDA7587 /* HintTemplates.swift */,
+			);
+			path = HintTemplates;
+			sourceTree = "<group>";
+		};
+		7BC4A1CCA8A0F6CDC4712F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F3F97A908FB8F868C95CBC /* CareCard.app */,
+				A3512D5503B1CF9AF7E34F54 /* CareCardTests.xctest */,
+				F1490609EF560E28863A5F6B /* CareCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9101C04D565B99A6127F7214 /* CareCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB119CFD69431DB1CE82E3 /* LearnFlowUITests.swift */,
+				12CD21DD9DBB7E7B0134FFF0 /* StoreScreenshotTests.swift */,
+			);
+			path = CareCardUITests;
+			sourceTree = "<group>";
+		};
+		92A97E4CA29E4B2C781975E0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E00CCBC6D33571CC5518E /* CareCardApp.swift */,
+				CF57B12797A906DF39A2CA09 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A07F4AE27FB0FDA5E3BD4505 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1719A6C3F554A37C5D1EE118 /* EntitlementStore.swift */,
+				EB0079587211A799DEB7B721 /* ProductIDs.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A65D0C380DA309C85BD4665D /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C3382A0612E74C6C8F7D2 /* LearnCardView.swift */,
+				A8FF9A5F42B822E4DBAB321F /* LearnFlowView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		A99658DE06C97B3CF71C72DD /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				41629C1A2936B40DA56FF7AF /* ExamPace.swift */,
+				AEFBA7681495B7A2C0F9F027 /* HintStateMachine.swift */,
+				678F65D6A865E2223A32B9D0 /* Scheduler.swift */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		AD56A798010ED27385EBAD00 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				5FC908468ED82D6B016F8307 /* CardDefinition.swift */,
+				A1029FD5B1957EC914B010CA /* DeckLoader.swift */,
+				7BD64C02EA50CBADBFD04493 /* DeckValidator.swift */,
+				18C3FC62E306990AC9B8E63E /* FactsCatalog.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		AF4C2A5B89E8060481AE2954 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95A018DDA9E7332584AFA337 /* Assets.xcassets */,
+				2377D0EF8B1D41C7A280628C /* deck */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5830C01A2138B7567F8221B /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				A0E499761F601EAC6DA1D3BE /* ProgressHomeView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		D14EE53F183F3ECF9BD6E9F7 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				78F569AB6B29439F3B8758B6 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		ED3453FA5DF71B61B2BE5AAB /* CareCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0240294D50082F5E92526B /* DeckSchemaTests.swift */,
+				39403C60513C732D7819AA98 /* ExamPaceTests.swift */,
+				983DCB8187A4B7BD2F11E923 /* HintStateMachineTests.swift */,
+				A66AB1504016A37C7858A461 /* SchedulerTests.swift */,
+				92C39DEEB0154DC32A5811BC /* StudyLimiterTests.swift */,
+				38B442D5F2936D0C628109B0 /* StudyQueueBuilderTests.swift */,
+			);
+			path = CareCardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025F4BE3CD1D64357471C80D /* CareCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B316C5820DF384A614A36673 /* Build configuration list for PBXNativeTarget "CareCardTests" */;
+			buildPhases = (
+				E6E1BCAADBD23605CB8DCEF5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDDC8BD6EE335675C3FF17D /* PBXTargetDependency */,
+			);
+			name = CareCardTests;
+			packageProductDependencies = (
+			);
+			productName = CareCardTests;
+			productReference = A3512D5503B1CF9AF7E34F54 /* CareCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		287C9A8122F86AA6AFC9C28E /* CareCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC02863821C299F2435F7AA /* Build configuration list for PBXNativeTarget "CareCard" */;
+			buildPhases = (
+				636DB5C154A3EA76AF36F175 /* Sources */,
+				5F3721CD5E8D992883C17143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareCard;
+			packageProductDependencies = (
+			);
+			productName = CareCard;
+			productReference = 83F3F97A908FB8F868C95CBC /* CareCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A010E5D496F3B320BB1B4CC6 /* CareCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FBF1FDFC0A8105A1B099079 /* Build configuration list for PBXNativeTarget "CareCardUITests" */;
+			buildPhases = (
+				460EAD663E5FD82A63C17EEF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AC5E0D9DBD37414179E9EB /* PBXTargetDependency */,
+			);
+			name = CareCardUITests;
+			packageProductDependencies = (
+			);
+			productName = CareCardUITests;
+			productReference = F1490609EF560E28863A5F6B /* CareCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1908758C3EB61AA2D886AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A010E5D496F3B320BB1B4CC6 = {
+						TestTargetID = 287C9A8122F86AA6AFC9C28E;
+					};
+				};
+			};
+			buildConfigurationList = C1049E1649E253E2349419CB /* Build configuration list for PBXProject "CareCard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1FFD4C686CCB24817A22BDA2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7BC4A1CCA8A0F6CDC4712F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287C9A8122F86AA6AFC9C28E /* CareCard */,
+				025F4BE3CD1D64357471C80D /* CareCardTests */,
+				A010E5D496F3B320BB1B4CC6 /* CareCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3721CD5E8D992883C17143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065B66112D028D61B5CE3188 /* Assets.xcassets in Resources */,
+				9FF95BE785141ABAE8DBF04C /* deck-fukushi.json in Resources */,
+				1F680CFA3102490B385A4B5B /* deck-hoken.json in Resources */,
+				4B9731D851613541D057A7F1 /* deck-shien.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460EAD663E5FD82A63C17EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A9DE93EECF1F6D65640F2C /* LearnFlowUITests.swift in Sources */,
+				8E5AF2D10E9E95A527FB0DDC /* StoreScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636DB5C154A3EA76AF36F175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB65C629F0968D45BE7F8657 /* AppSettingsStore.swift in Sources */,
+				EA83BE91D46CADF998F9D186 /* CardDefinition.swift in Sources */,
+				D2F492962021EB5C1AD6EC32 /* CardProgress.swift in Sources */,
+				0BD194D9169D16CE53017207 /* CardTheme.swift in Sources */,
+				3FF6E7D31602E02E8AA890DB /* CareCardApp.swift in Sources */,
+				7ED542773C965C257C60303D /* DeckLoader.swift in Sources */,
+				0B58A534C8E85CC6DBFDC270 /* DeckRepository.swift in Sources */,
+				37A26454FFF6657C17F0D2EA /* DeckValidator.swift in Sources */,
+				C280C1A28CD0E265ED98A80D /* EntitlementStore.swift in Sources */,
+				C299EC2F3C6BA551DA0AF76B /* ExamPace.swift in Sources */,
+				3BEF4F17AF8D0B8ACE6F7A1A /* FactsCatalog.swift in Sources */,
+				D8D96500B7ABAFB22BF23DB0 /* FlameShape.swift in Sources */,
+				F41FE7434451D48A7E9CEB0C /* HintImageView.swift in Sources */,
+				26B694AA9C017099D9276F6B /* HintStateMachine.swift in Sources */,
+				89DAE05B47B4053AA91DF354 /* HintTemplates.swift in Sources */,
+				C1E9DCE170E2B897BE8A8EC8 /* LearnCardView.swift in Sources */,
+				1E5B109797EBCA3A5A6AEF31 /* LearnFlowView.swift in Sources */,
+				8782F103C97D3500D9B18727 /* PaywallView.swift in Sources */,
+				AF4A0C5BCA7C151D0EC21F45 /* ProductIDs.swift in Sources */,
+				3B8B19831920B4C486B6CF18 /* ProgressHomeView.swift in Sources */,
+				56BC74F64B18E7D59EA79018 /* RootView.swift in Sources */,
+				752F9F6E9DC5F61E7488CA8C /* Scheduler.swift in Sources */,
+				D714921EEE93AB5220066FB8 /* SettingsView.swift in Sources */,
+				FC350811DEDE0DA320DDB506 /* StudyLimiter.swift in Sources */,
+				75D5C7058F02354C531C8936 /* StudyQueueBuilder.swift in Sources */,
+				33811C2CEC674D3AF48BF729 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1BCAADBD23605CB8DCEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0F513E4679C9D682A2C8D3 /* DeckSchemaTests.swift in Sources */,
+				844389289A76C730902F5215 /* ExamPaceTests.swift in Sources */,
+				08EBE54E73F4755E3278DFB9 /* HintStateMachineTests.swift in Sources */,
+				A43AF82A0B4AC2A05FB89B79 /* SchedulerTests.swift in Sources */,
+				660237DA8C03C24801250E8E /* StudyLimiterTests.swift in Sources */,
+				9B8C5DDA5F49D98DA6EE5D0C /* StudyQueueBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDDC8BD6EE335675C3FF17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287C9A8122F86AA6AFC9C28E /* CareCard */;
+			targetProxy = EF867D17E9CEECF43B321C1F /* PBXContainerItemProxy */;
+		};
+		C3AC5E0D9DBD37414179E9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287C9A8122F86AA6AFC9C28E /* CareCard */;
+			targetProxy = D6F8EF7903F3ECD5DE853F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		317488B28627ADBF1BBE9CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCard.app/CareCard";
+			};
+			name = Debug;
+		};
+		3D37688A6376EC7A89ABE3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4676C6AE2B42F0A129918FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CareCard;
+			};
+			name = Debug;
+		};
+		4B95B3DAD6C1A54E19411E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B39724EDA6619D10553976E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CareCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DD27AA816152CA023E520CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCard.app/CareCard";
+			};
+			name = Release;
+		};
+		F64BBFA706D0E4F6A944CFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CareCard;
+			};
+			name = Release;
+		};
+		FB6A8AB6900C94E0ACD00B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CareCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.caremanecard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FBF1FDFC0A8105A1B099079 /* Build configuration list for PBXNativeTarget "CareCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4676C6AE2B42F0A129918FCF /* Debug */,
+				F64BBFA706D0E4F6A944CFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9FC02863821C299F2435F7AA /* Build configuration list for PBXNativeTarget "CareCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6A8AB6900C94E0ACD00B86 /* Debug */,
+				B39724EDA6619D10553976E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B316C5820DF384A614A36673 /* Build configuration list for PBXNativeTarget "CareCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317488B28627ADBF1BBE9CE7 /* Debug */,
+				DD27AA816152CA023E520CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1049E1649E253E2349419CB /* Build configuration list for PBXProject "CareCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B95B3DAD6C1A54E19411E7D /* Debug */,
+				3D37688A6376EC7A89ABE3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1908758C3EB61AA2D886AC6 /* Project object */;
+}
